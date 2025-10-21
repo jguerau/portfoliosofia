@@ -5,18 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sofia Llacer Caro — Física · IA · Jazz</title>
 
-    <!-- Bootstrap 5.0 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-gradient">
 
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
@@ -37,7 +32,6 @@
       </div>
     </nav>
 
-    <!-- Hero -->
     <header class="pt-5 pt-md-6 pb-5">
       <div class="container pt-5 mt-4">
         <div class="row align-items-center">
@@ -46,28 +40,30 @@
             <h1 class="hero-title mt-4">Sofia <span class="text-gradient">Llacer Caro</span></h1>
             <p class="lead text-muted">Física especializada en modelización científica, dedicada a enseñar inteligencia artificial y empoderar personas a través del conocimiento tecnológico.</p>
 
-            <div class="d-flex gap-2 mt-4">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
               <a href="#contacto" class="btn btn-primary btn-lg rounded-pill">Contactar <i class="bi bi-send ms-2"></i></a>
               <a href="#sobre-mi" class="btn btn-outline-secondary btn-lg rounded-pill">Conocer más</a>
             </div>
 
-            <div class="mt-4">
-              <a class="social-link" href="#"><i class="bi bi-linkedin"></i></a>
-              <a class="social-link" href="#"><i class="bi bi-envelope"></i></a>
-              <a class="social-link" href="#"><i class="bi bi-github"></i></a>
+            <div class="d-flex gap-3 mt-4">
+              <a class="social-btn" href="#"><i class="bi bi-linkedin"></i></a>
+              <a class="social-btn" href="#"><i class="bi bi-envelope"></i></a>
+              <a class="social-btn" href="#"><i class="bi bi-github"></i></a>
             </div>
           </div>
 
           <div class="col-md-6 text-center">
             <div class="hero-card mx-auto">
-              <div class="photo-placeholder">Foto profesional de Sofia</div>
+              <div class="photo-placeholder">
+                  <i class="bi bi-cpu-fill"></i>
+                  Foto profesional de Sofia
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Sobre mí -->
     <section id="sobre-mi" class="py-5 bg-white">
       <div class="container">
         <div class="text-center mb-5">
@@ -112,7 +108,6 @@
       </div>
     </section>
 
-    <!-- Formación -->
     <section id="formacion" class="py-5">
       <div class="container">
         <div class="text-center mb-5">
@@ -150,7 +145,6 @@
       </div>
     </section>
 
-    <!-- Experiencia -->
     <section id="experiencia" class="py-5 bg-white">
       <div class="container">
         <div class="text-center mb-5">
@@ -179,7 +173,6 @@
       </div>
     </section>
 
-    <!-- Habilidades -->
     <section id="habilidades" class="py-5">
       <div class="container">
         <div class="text-center mb-5">
@@ -230,7 +223,6 @@
       </div>
     </section>
 
-    <!-- Contacto -->
     <section id="contacto" class="py-5 bg-dark text-light">
       <div class="container">
         <div class="text-center mb-4">
@@ -243,15 +235,15 @@
             <div class="card p-4">
               <form id="contactForm" class="row g-3">
                 <div class="col-md-6">
-                  <label class="form-label">Nombre</label>
+                  <label class="form-label text-dark">Nombre</label>
                   <input id="name" class="form-control form-control-lg" placeholder="Tu nombre" required>
                 </div>
                 <div class="col-md-6">
-                  <label class="form-label">Email</label>
+                  <label class="form-label text-dark">Email</label>
                   <input id="email" type="email" class="form-control form-control-lg" placeholder="tu@email.com" required>
                 </div>
                 <div class="col-12">
-                  <label class="form-label">Mensaje</label>
+                  <label class="form-label text-dark">Mensaje</label>
                   <textarea id="message" class="form-control" rows="5" placeholder="Cuéntame sobre tu proyecto o idea..." required></textarea>
                 </div>
                 <div class="col-12">
@@ -271,7 +263,6 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="py-4 bg-black text-light">
       <div class="container text-center">
         <p class="mb-1">© 2024 Sofia Llacer Caro. Todos los derechos reservados.</p>
@@ -279,9 +270,7 @@
       </div>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
     <script src="script.js"></script>
   </body>
 </html>
